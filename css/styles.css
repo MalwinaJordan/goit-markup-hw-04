@@ -140,6 +140,12 @@ line-height: 171%;
 color: #757575;
 }
 
+.icon-box {
+    width: 270px;
+    height: 120px;
+    background-color: #F5F4FA;
+}
+
 .about-us {
     /* Czym się zajmujemy */
 font-weight: 700;
@@ -180,7 +186,24 @@ height: 368px;
 /* material shadow v1 */
 box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 border-radius: 0px 0px 4px 4px;
+}
 
+.card-icon {
+    display: flex;
+    width: 206px;
+    height: 56px;
+}
+
+.our-clients {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+
+}
+
+.clients-icons {
+    display: flex;
+    justify-content: space-between;
 }
 
 .footer {
