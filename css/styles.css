@@ -141,9 +141,13 @@ color: #757575;
 }
 
 .icon-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 270px;
     height: 120px;
     background-color: #F5F4FA;
+    margin-bottom: 30px;
 }
 
 .about-us {
@@ -194,16 +198,22 @@ border-radius: 0px 0px 4px 4px;
     height: 56px;
 }
 
+.clients {
+    margin-bottom: 94px;
+}
+
 .our-clients {
     display: flex;
     justify-content: center;
     margin: 0 auto;
+    padding-top: 94px;
 
 }
 
 .clients-icons {
     display: flex;
     justify-content: space-between;
+    padding-top: 50px;
 }
 
 .footer {
@@ -247,6 +257,21 @@ letter-spacing: 0.03em;
     text-decoration-line: underline;
     }
 
+.address-footer {
+    display: flex;
+    
+}
+
+.join-us-title {
+    display: flex;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
 
 .button-portfolio {
         /* button-portfolio */
@@ -365,9 +390,10 @@ color: #757575;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 295px;
+    width: 321px;
     padding-top: 32px;
     padding-bottom: 32px;
+    row-gap: 30px;
     }
 
 .contact-links {
